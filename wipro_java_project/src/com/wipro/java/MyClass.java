@@ -12,8 +12,8 @@ class MyClass {
 
 
     public static void main(String[] args) {
-        MyClass obj = new MyClass();
-        obj.changeValue(10);
+        MyClass obj = new MyClass();//creating method
+        obj.changeValue(10);//creating object
         System.out.println(obj.num);  // Output: 10
     }
 
