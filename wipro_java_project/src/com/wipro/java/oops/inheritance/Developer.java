@@ -1,13 +1,19 @@
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
-public class ProjectLead extends Employee{
+/**
+ * parent class employee
+ * child class developer
+ * extends is keyword
+ */
+ 
+public class Developer extends Employee {
 
-	public ProjectLead() {
+	public Developer() {
 		// TODO Auto-generated constructor stub
 	}
-	public static void main(String a[]) {
-		Employee employee = new ProjectLead();
-		employee.setEmpid(1234);
+	public static void main(String a[]){
+		Employee employee = new Developer();
+		employee.setEmpid(1236);
 		employee.setName("abii");
 		employee.setEmail("abii");
 		employee.setSalary((float) 10000.10);
@@ -15,9 +21,5 @@ public class ProjectLead extends Employee{
 		System.out.println(employee.getName());
 		System.out.println(employee.getEmail());
 		System.out.println(employee.getSalary());
-
-		
-		
 	}
-
 }

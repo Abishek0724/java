@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
 /**
  * @author ABI
@@ -80,7 +80,7 @@ public class Employee {
 	/**
 	 * @param istaxapplicable the istaxapplicable to set
 	 */
-	private void setIstaxapplicable(boolean Istaxapplicable) {
+	public void setIstaxapplicable(boolean Istaxapplicable) {
 		Istaxapplicable = Istaxapplicable;
 	}
 
