@@ -9,76 +9,79 @@ package com.wipro.java.oops;
  */
 public class Employee {
 
-	private int employeeid;
-	private String name;
-	private String email;
-	private float salary;
-	public Employee() {
-		// TODO Auto-generated constructor stub
-	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	private int Empid;
+	private String Name;
+	private String Email;
+	private float Salary;
+	private boolean Istaxapplicable;
 	/**
 	 * @return the employeeid
 	 */
-	private int getEmployeeid() {
-		return employeeid;
+	public int getEmpid() {
+		return Empid;
 	}
 
 	/**
 	 * @param employeeid the employeeid to set
 	 */
-	private void setEmployeeid(int employeeid) {
-		this.employeeid = employeeid;
+	public void setEmpid(int Empid) {
+		this.Empid = Empid;
 	}
 
 	/**
 	 * @return the name
 	 */
-	private String getName() {
-		return name;
+	public String getName() {
+		return Name;
 	}
 
 	/**
 	 * @param name the name to set
 	 */
-	private void setName(String name) {
-		this.name = name;
+	public void setName(String Name) {
+		this.Name = Name;
 	}
 
 	/**
 	 * @return the email
 	 */
-	private String getEmail() {
-		return email;
+	public String getEmail() {
+		return Email;
 	}
 
 	/**
 	 * @param email the email to set
 	 */
-	private void setEmail(String email) {
-		this.email = email;
+	public void setEmail(String Email) {
+		this.Email = Email;
 	}
 
 	/**
 	 * @return the salary
 	 */
-	private float getSalary() {
-		return salary;
+	public float getSalary() {
+		return Salary;
 	}
 
 	/**
 	 * @param salary the salary to set
 	 */
-	private void setSalary(float salary) {
-		this.salary = salary;
+	public void setSalary(float Salary) {
+		this.Salary = Salary;
+	}
+
+	/**
+	 * @return the istaxapplicable
+	 */
+	public boolean isIstaxapplicable() {
+		return Istaxapplicable;
+	}
+
+	/**
+	 * @param istaxapplicable the istaxapplicable to set
+	 */
+	private void setIstaxapplicable(boolean Istaxapplicable) {
+		Istaxapplicable = Istaxapplicable;
 	}
 
 }
