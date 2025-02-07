@@ -8,7 +8,7 @@ public class StringApi {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "Sree xyz";
+		String str = "Abii xyz";
 		System.out.println(str.length());
 		System.out.println(str.charAt(2));
 		System.out.println(str.substring(1,3));
