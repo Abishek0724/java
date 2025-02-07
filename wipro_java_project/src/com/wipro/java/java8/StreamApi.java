@@ -12,9 +12,9 @@ public class StreamApi {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<String> list = Arrays.asList("Sree", "John");
+		List<String> list = Arrays.asList("Abii", "Kavi");
 		List<String> stream = list.stream().
-				filter(name->name.startsWith("S")).
+				filter(name->name.startsWith("A")).
 				collect(Collectors.toList());
 		System.out.println(stream);
 		List<String> stream1 = list.stream().
